@@ -10,7 +10,7 @@ six-sided dice).
 - Optional logging of individual dice rolls through the `DiceLogger` struct.
 
 # Example
-```
+```rust
 let expression : Expression = "(12d8 + 34)/2".try_into().unwrap();
 let mut logger = DiceLogger::new();
 
